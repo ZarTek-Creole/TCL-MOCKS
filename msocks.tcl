@@ -1,13 +1,17 @@
+# Manage "My Own soCKs Server" with eggdrop bot
+# https://sourceforge.net/projects/mocks/
+#
+# LATEST VERSION : https://github.com/MalaGaM/TCL-MOCKS
 namespace eval ::MOCKS {
 	variable ns [namespace current]
 	variable np [namespace qualifiers [namespace parent]]
 
-	variable PATHROOT	"/home/frozzak/mocks"
+	variable PATHROOT	"/home/user/mocks"
 	variable CONF_FILE	"mocks.conf"
 	variable PID_FILE	"mocks.pid"
 	variable CRON_FILE	"mocks.cron"
 	variable LOG_FILE	"mocks.log"
-	variable SHELL_USER	"frozzak"
+	variable SHELL_USER	"mockusershell"
 
 }
 proc ::MOCKS::INIT { } {
