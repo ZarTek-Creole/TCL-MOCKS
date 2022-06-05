@@ -1,7 +1,7 @@
 # Manage "My Own soCKs Server" with eggdrop bot
 # https://sourceforge.net/projects/mocks/
 #
-# LATEST VERSION : https://github.com/MalaGaM/TCL-MOCKS
+# LATEST VERSION : https://github.com/ZarTek-Creole/TCL-MOCKS
 namespace eval ::MOCKS {
 	variable ns [namespace current]
 	variable np [namespace qualifiers [namespace parent]]
